@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" fill="none">
+  <rect width="1200" height="1600" fill="#F5F4ED"/>
+  <rect x="80" y="80" width="1040" height="1440" rx="40" fill="#FCFBF8" stroke="#171717" stroke-opacity="0.08"/>
+  <text x="120" y="160" fill="#171717" font-size="54" font-family="Arial, sans-serif" font-weight="700">Mini Sound System — Front concept</text>
+  <text x="120" y="210" fill="#5E5D59" font-size="24" font-family="Arial, sans-serif">Plan vectoriel de principe • lecture frontale • sub / kick / tweeter</text>
+
+  <g transform="translate(360 300)">
+    <rect x="140" y="0" width="200" height="180" rx="28" fill="#2A2826" stroke="#C96442" stroke-opacity="0.65" stroke-width="2"/>
+    <circle cx="240" cy="78" r="44" fill="#171717" stroke="#F5F4ED" stroke-opacity="0.28" stroke-width="2"/>
+    <circle cx="240" cy="78" r="28" fill="#C96442" fill-opacity="0.25" stroke="#C96442" stroke-width="2"/>
+    <text x="240" y="148" fill="#F5F4ED" font-size="22" font-family="Arial, sans-serif" text-anchor="middle" letter-spacing="4">TWEETER</text>
+
+    <rect x="80" y="220" width="320" height="290" rx="32" fill="#211F1D" stroke="#F5F4ED" stroke-opacity="0.12" stroke-width="2"/>
+    <circle cx="240" cy="365" r="88" fill="#171717" stroke="#F5F4ED" stroke-opacity="0.18" stroke-width="2"/>
+    <circle cx="240" cy="365" r="52" fill="#F5F4ED" fill-opacity="0.06" stroke="#F5F4ED" stroke-opacity="0.16" stroke-width="2"/>
+    <text x="240" y="468" fill="#F5F4ED" font-size="24" font-family="Arial, sans-serif" text-anchor="middle" letter-spacing="5">KICK</text>
+
+    <rect x="0" y="560" width="480" height="400" rx="36" fill="#171717" stroke="#F5F4ED" stroke-opacity="0.14" stroke-width="2"/>
+    <circle cx="240" cy="760" r="126" fill="#111111" stroke="#F5F4ED" stroke-opacity="0.2" stroke-width="2"/>
+    <circle cx="240" cy="760" r="76" fill="#F5F4ED" fill-opacity="0.06" stroke="#F5F4ED" stroke-opacity="0.18" stroke-width="2"/>
+    <text x="240" y="900" fill="#F5F4ED" font-size="26" font-family="Arial, sans-serif" text-anchor="middle" letter-spacing="6">SUB</text>
+  </g>
+
+  <g stroke="#171717" stroke-opacity="0.35" stroke-width="2">
+    <line x1="790" y1="400" x2="1030" y2="400"/>
+    <line x1="760" y1="670" x2="1030" y2="670"/>
+    <line x1="700" y1="1060" x2="1030" y2="1060"/>
+  </g>
+  <g fill="#171717" font-family="Arial, sans-serif">
+    <text x="1045" y="392" font-size="22" font-weight="700">Tweeter module</text>
+    <text x="1045" y="424" font-size="18" fill="#5E5D59">Lecture haute fréquence / détail</text>
+
+    <text x="1045" y="662" font-size="22" font-weight="700">Kick module</text>
+    <text x="1045" y="694" font-size="18" fill="#5E5D59">Impact, rythme, articulation</text>
+
+    <text x="1045" y="1052" font-size="22" font-weight="700">Sub module</text>
+    <text x="1045" y="1084" font-size="18" fill="#5E5D59">Fondation basse fréquence</text>
+  </g>
+
+  <g stroke="#171717" stroke-opacity="0.22" stroke-width="2" fill="none">
+    <line x1="320" y1="1285" x2="800" y2="1285"/>
+    <line x1="320" y1="1260" x2="320" y2="1310"/>
+    <line x1="800" y1="1260" x2="800" y2="1310"/>
+    <line x1="840" y1="560" x2="840" y2="1260"/>
+    <line x1="815" y1="560" x2="865" y2="560"/>
+    <line x1="815" y1="1260" x2="865" y2="1260"/>
+  </g>
+  <g fill="#5E5D59" font-size="18" font-family="Arial, sans-serif">
+    <text x="510" y="1322">Approx. width footprint</text>
+    <text x="880" y="920" transform="rotate(90 880 920)">Approx. total stack height</text>
+  </g>
+
+  <text x="120" y="1460" fill="#5E5D59" font-size="18" font-family="Arial, sans-serif">Note: concept drawing only. Not validated for production or acoustics.</text>
+</svg>
