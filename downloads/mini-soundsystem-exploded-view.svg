@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1400" viewBox="0 0 1400 1400" fill="none">
+  <rect width="1400" height="1400" fill="#F5F4ED"/>
+  <rect x="80" y="80" width="1240" height="1240" rx="40" fill="#FCFBF8" stroke="#171717" stroke-opacity="0.08"/>
+  <text x="120" y="160" fill="#171717" font-size="54" font-family="Arial, sans-serif" font-weight="700">Mini Sound System — Exploded concept</text>
+  <text x="120" y="210" fill="#5E5D59" font-size="24" font-family="Arial, sans-serif">Plan vectoriel de principe • vue éclatée • logique modulaire</text>
+
+  <g transform="translate(230 300)">
+    <rect x="390" y="0" width="220" height="170" rx="28" fill="#2A2826" stroke="#C96442" stroke-opacity="0.65" stroke-width="2"/>
+    <circle cx="500" cy="72" r="40" fill="#171717" stroke="#F5F4ED" stroke-opacity="0.24" stroke-width="2"/>
+    <text x="500" y="138" fill="#F5F4ED" font-size="20" font-family="Arial, sans-serif" text-anchor="middle" letter-spacing="4">TWEETER</text>
+
+    <rect x="300" y="300" width="400" height="280" rx="32" fill="#211F1D" stroke="#F5F4ED" stroke-opacity="0.12" stroke-width="2"/>
+    <circle cx="500" cy="438" r="90" fill="#171717" stroke="#F5F4ED" stroke-opacity="0.18" stroke-width="2"/>
+    <circle cx="500" cy="438" r="55" fill="#F5F4ED" fill-opacity="0.05" stroke="#F5F4ED" stroke-opacity="0.16" stroke-width="2"/>
+    <text x="500" y="540" fill="#F5F4ED" font-size="22" font-family="Arial, sans-serif" text-anchor="middle" letter-spacing="5">KICK</text>
+
+    <rect x="180" y="760" width="640" height="380" rx="38" fill="#171717" stroke="#F5F4ED" stroke-opacity="0.14" stroke-width="2"/>
+    <circle cx="500" cy="950" r="132" fill="#101010" stroke="#F5F4ED" stroke-opacity="0.18" stroke-width="2"/>
+    <circle cx="500" cy="950" r="80" fill="#F5F4ED" fill-opacity="0.05" stroke="#F5F4ED" stroke-opacity="0.16" stroke-width="2"/>
+    <text x="500" y="1098" fill="#F5F4ED" font-size="24" font-family="Arial, sans-serif" text-anchor="middle" letter-spacing="6">SUB</text>
+
+    <g stroke="#171717" stroke-opacity="0.22" stroke-width="3" stroke-dasharray="12 10">
+      <line x1="500" y1="190" x2="500" y2="270"/>
+      <line x1="500" y1="610" x2="500" y2="720"/>
+    </g>
+
+    <g fill="#C96442" fill-opacity="0.12" stroke="#C96442" stroke-opacity="0.5" stroke-width="2">
+      <rect x="366" y="215" width="268" height="48" rx="24"/>
+      <rect x="310" y="660" width="380" height="52" rx="26"/>
+    </g>
+    <g fill="#5E5D59" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">
+      <text x="500" y="246">assembly interface / separation gap</text>
+      <text x="500" y="693">assembly interface / separation gap</text>
+    </g>
+  </g>
+
+  <g fill="#171717" font-family="Arial, sans-serif">
+    <text x="1030" y="375" font-size="22" font-weight="700">Top detail module</text>
+    <text x="1030" y="406" font-size="18" fill="#5E5D59">Small housing for the high register and visual signature.</text>
+
+    <text x="1030" y="655" font-size="22" font-weight="700">Middle impact module</text>
+    <text x="1030" y="686" font-size="18" fill="#5E5D59">Main rhythmic body, proportionally central in the composition.</text>
+
+    <text x="1030" y="1000" font-size="22" font-weight="700">Base foundation module</text>
+    <text x="1030" y="1031" font-size="18" fill="#5E5D59">Lowest cabinet, visually stable and easiest to anchor in a room.</text>
+  </g>
+
+  <text x="120" y="1260" fill="#5E5D59" font-size="18" font-family="Arial, sans-serif">Note: conceptual exploded view for storytelling and product discussion. Not manufacturing-ready.</text>
+</svg>

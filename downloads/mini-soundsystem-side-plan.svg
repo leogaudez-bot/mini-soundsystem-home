@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1400" viewBox="0 0 1200 1400" fill="none">
+  <rect width="1200" height="1400" fill="#F5F4ED"/>
+  <rect x="80" y="80" width="1040" height="1240" rx="40" fill="#FCFBF8" stroke="#171717" stroke-opacity="0.08"/>
+  <text x="120" y="160" fill="#171717" font-size="54" font-family="Arial, sans-serif" font-weight="700">Mini Sound System — Side concept</text>
+  <text x="120" y="210" fill="#5E5D59" font-size="24" font-family="Arial, sans-serif">Plan vectoriel de principe • volume général • profondeur • empilement</text>
+
+  <g transform="translate(270 320)">
+    <path d="M210 0H420C450 0 474 24 474 54V152C474 182 450 206 420 206H210C180 206 156 182 156 152V54C156 24 180 0 210 0Z" fill="#2A2826" stroke="#C96442" stroke-opacity="0.65" stroke-width="2"/>
+    <path d="M160 250H470C506 250 536 280 536 316V502C536 538 506 568 470 568H160C124 568 94 538 94 502V316C94 280 124 250 160 250Z" fill="#211F1D" stroke="#F5F4ED" stroke-opacity="0.12" stroke-width="2"/>
+    <path d="M80 640H560C602 640 636 674 636 716V980C636 1022 602 1056 560 1056H80C38 1056 4 1022 4 980V716C4 674 38 640 80 640Z" fill="#171717" stroke="#F5F4ED" stroke-opacity="0.14" stroke-width="2"/>
+
+    <path d="M474 36L540 66V158L474 136Z" fill="#3A3734" stroke="#F5F4ED" stroke-opacity="0.08" stroke-width="2"/>
+    <path d="M536 286L626 330V506L536 468Z" fill="#2A2724" stroke="#F5F4ED" stroke-opacity="0.08" stroke-width="2"/>
+    <path d="M636 686L760 748V972L636 918Z" fill="#22201D" stroke="#F5F4ED" stroke-opacity="0.08" stroke-width="2"/>
+
+    <line x1="94" y1="568" x2="626" y2="568" stroke="#F5F4ED" stroke-opacity="0.08" stroke-dasharray="10 8"/>
+    <line x1="4" y1="1056" x2="760" y2="1056" stroke="#F5F4ED" stroke-opacity="0.08" stroke-dasharray="10 8"/>
+  </g>
+
+  <g stroke="#171717" stroke-opacity="0.3" stroke-width="2">
+    <line x1="780" y1="415" x2="1010" y2="415"/>
+    <line x1="875" y1="700" x2="1010" y2="700"/>
+    <line x1="1000" y1="1120" x2="1090" y2="1120"/>
+  </g>
+  <g fill="#171717" font-family="Arial, sans-serif">
+    <text x="1025" y="407" font-size="22" font-weight="700">Shallow top unit</text>
+    <text x="1025" y="439" font-size="18" fill="#5E5D59">compact tweeter housing</text>
+
+    <text x="1025" y="692" font-size="22" font-weight="700">Mid-depth kick body</text>
+    <text x="1025" y="724" font-size="18" fill="#5E5D59">impact zone / visual core</text>
+
+    <text x="690" y="1112" font-size="22" font-weight="700">Deeper sub base</text>
+    <text x="690" y="1144" font-size="18" fill="#5E5D59">stability + low-end volume</text>
+  </g>
+
+  <g stroke="#171717" stroke-opacity="0.22" stroke-width="2" fill="none">
+    <line x1="276" y1="1230" x2="1030" y2="1230"/>
+    <line x1="276" y1="1208" x2="276" y2="1252"/>
+    <line x1="1030" y1="1208" x2="1030" y2="1252"/>
+    <line x1="220" y1="360" x2="220" y2="1230"/>
+    <line x1="198" y1="360" x2="242" y2="360"/>
+    <line x1="198" y1="1230" x2="242" y2="1230"/>
+  </g>
+  <g fill="#5E5D59" font-size="18" font-family="Arial, sans-serif">
+    <text x="570" y="1268">Approx. overall depth</text>
+    <text x="258" y="820" transform="rotate(90 258 820)">Approx. overall height</text>
+  </g>
+
+  <text x="120" y="1280" fill="#5E5D59" font-size="18" font-family="Arial, sans-serif">Note: concept drawing only. Cabinet geometry, drivers and internal volume remain to be engineered.</text>
+</svg>
