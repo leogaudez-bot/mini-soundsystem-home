@@ -22,6 +22,13 @@ export type DownloadItem = {
   format: string;
 };
 
+export type VisualAsset = {
+  src: string;
+  alt: string;
+  title?: string;
+  description?: string;
+};
+
 export const siteContent = {
   brand: {
     name: "Mini Sound System",
@@ -46,6 +53,10 @@ export const siteContent = {
       "Landing prête à être partagée",
     ],
   },
+  heroImage: {
+    src: withBasePath("/assets/images/hero-product.jpg"),
+    alt: "Mini Sound System hero product shot in a warm apartment setting",
+  } as VisualAsset,
   positioning: {
     title: "Pourquoi ce projet existe",
     intro:
@@ -193,6 +204,38 @@ export const siteContent = {
       format: "SVG",
     },
   ] as DownloadItem[],
+  lifestyleImages: [
+    {
+      src: withBasePath("/assets/images/hero-product.jpg"),
+      alt: "Mini Sound System integrated into a compact living room",
+      title: "Dans le salon",
+      description:
+        "Le système trouve sa place dans un intérieur chaleureux, sans tomber dans l’esthétique sono envahissante.",
+    },
+    {
+      src: withBasePath("/assets/images/lifestyle-2.jpg"),
+      alt: "Mini Sound System used in a creative apartment studio",
+      title: "Studio créatif",
+      description:
+        "Une présence visuelle forte pour écouter, travailler ou recevoir dans un espace plus hybride.",
+    },
+  ] as VisualAsset[],
+  detailImages: [
+    {
+      src: withBasePath("/assets/images/detail-1.jpg"),
+      alt: "Close-up detail of the Mini Sound System wood and speaker finish",
+      title: "Matériaux et finition",
+      description:
+        "Des détails de fabrication qui rendent le concept tangible et plus crédible visuellement.",
+    },
+    {
+      src: withBasePath("/assets/images/detail-2.jpg"),
+      alt: "Close-up of the Mini Sound System stack construction and proportions",
+      title: "Lecture du stack",
+      description:
+        "Les proportions sub / kick / tweeter restent lisibles jusque dans les vues rapprochées.",
+    },
+  ] as VisualAsset[],
   footer: {
     title: "Une base propre pour tester une vraie idée",
     description:
@@ -201,3 +244,4 @@ export const siteContent = {
 } as const;
 
 export type SiteContent = typeof siteContent;
+

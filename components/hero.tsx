@@ -57,40 +57,30 @@ export function Hero() {
         </div>
 
         <div className="relative overflow-hidden rounded-[1.75rem] border border-black/8 bg-[#141413] p-6 text-[#f7f4ee] shadow-[0_12px_40px_-24px_rgba(0,0,0,0.7)]">
-          <div className="absolute inset-x-0 top-0 h-40 bg-[radial-gradient(circle_at_top,_rgba(201,100,66,0.42),_transparent_62%)]" />
-          <div className="relative flex h-full min-h-[30rem] flex-col justify-between gap-10">
-            <div className="flex items-center justify-between text-xs uppercase tracking-[0.24em] text-[#b7afa1]">
+          <div className="relative flex h-full flex-col items-center gap-6">
+            <img 
+              src={siteContent.heroImage.src}
+              alt={siteContent.heroImage.alt}
+              className="rounded-[1.5rem] border border-black/4 bg-white/10 p-4 max-w-[32rem] w-full object-cover shadow-lg" 
+              loading="eager"
+            />
+            <div className="flex items-center justify-between text-xs uppercase tracking-[0.24em] text-[#b7afa1] w-full max-w-sm">
               <span>Stack domestique</span>
               <span>Concept v0.1</span>
             </div>
 
-            <div className="mx-auto flex w-full max-w-sm flex-col items-center gap-3">
-              <div className="w-36 rounded-[1.25rem] border border-white/12 bg-[#2a2826] px-5 py-5 text-center shadow-[0_0_0_1px_rgba(255,255,255,0.02),0_18px_36px_-22px_rgba(0,0,0,0.7)]">
-                <div className="mx-auto h-12 w-12 rounded-full border border-[#c96442]/60 bg-[radial-gradient(circle,_rgba(201,100,66,0.75)_0%,_rgba(201,100,66,0.16)_55%,_transparent_70%)]" />
-                <p className="mt-4 text-xs uppercase tracking-[0.25em] text-[#d7cfc0]">Tweeter</p>
+            <div className="grid gap-4 sm:grid-cols-3 text-center w-full max-w-sm">
+              <div>
+                <p className="text-xs uppercase tracking-[0.22em] text-[#b7afa1]">Tweeter</p>
+                <p className="mt-1 text-xs leading-5 text-[#d7cfc0]">High frequencies</p>
               </div>
-              <div className="w-52 rounded-[1.4rem] border border-white/12 bg-[#211f1d] px-6 py-8 text-center shadow-[0_0_0_1px_rgba(255,255,255,0.02),0_24px_40px_-24px_rgba(0,0,0,0.72)]">
-                <div className="mx-auto h-20 w-20 rounded-full border border-white/12 bg-[radial-gradient(circle,_rgba(247,244,238,0.16)_0%,_rgba(247,244,238,0.03)_52%,_transparent_70%)]" />
-                <p className="mt-5 text-xs uppercase tracking-[0.25em] text-[#d7cfc0]">Kick</p>
+              <div>
+                <p className="text-xs uppercase tracking-[0.22em] text-[#b7afa1]">Kick</p>
+                <p className="mt-1 text-xs leading-5 text-[#d7cfc0]">Midrange & rhythm</p>
               </div>
-              <div className="w-72 rounded-[1.65rem] border border-white/12 bg-[#181715] px-6 py-10 text-center shadow-[0_0_0_1px_rgba(255,255,255,0.03),0_32px_56px_-28px_rgba(0,0,0,0.85)]">
-                <div className="mx-auto h-28 w-28 rounded-full border border-white/12 bg-[radial-gradient(circle,_rgba(247,244,238,0.14)_0%,_rgba(247,244,238,0.04)_56%,_transparent_72%)]" />
-                <p className="mt-5 text-xs uppercase tracking-[0.25em] text-[#d7cfc0]">Sub</p>
-              </div>
-            </div>
-
-            <div className="grid gap-3 sm:grid-cols-3">
-              <div className="rounded-2xl border border-white/10 bg-white/4 p-4">
-                <p className="text-xs uppercase tracking-[0.22em] text-[#b7afa1]">Intent</p>
-                <p className="mt-2 text-sm leading-6 text-[#f7f4ee]">Créer une catégorie intermédiaire entre enceinte lifestyle et setup encombrant.</p>
-              </div>
-              <div className="rounded-2xl border border-white/10 bg-white/4 p-4">
-                <p className="text-xs uppercase tracking-[0.22em] text-[#b7afa1]">Usage</p>
-                <p className="mt-2 text-sm leading-6 text-[#f7f4ee]">Salon, studio créatif, petit lieu hybride, moments d’écoute à domicile.</p>
-              </div>
-              <div className="rounded-2xl border border-white/10 bg-white/4 p-4">
-                <p className="text-xs uppercase tracking-[0.22em] text-[#b7afa1]">Sortie</p>
-                <p className="mt-2 text-sm leading-6 text-[#f7f4ee]">Landing, business plan et plans vectoriels de principe prêts à partager.</p>
+              <div>
+                <p className="text-xs uppercase tracking-[0.22em] text-[#b7afa1]">Sub</p>
+                <p className="mt-1 text-xs leading-5 text-[#d7cfc0]">Bass foundation</p>
               </div>
             </div>
           </div>

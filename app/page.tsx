@@ -7,6 +7,8 @@ import { Hero } from "@/components/hero";
 import { PositioningBlock } from "@/components/positioning-block";
 import { SectionShell } from "@/components/section-shell";
 import { siteContent } from "@/content/site";
+import { LifestyleGrid } from "@/components/image-grid";
+import { DetailGrid } from "@/components/image-grid";
 
 function AudienceCards() {
   return (
@@ -138,6 +140,8 @@ export default function Home() {
       >
         <UseCaseCards />
       </SectionShell>
+      <LifestyleGrid />
+      <DetailGrid />
 
       <SectionShell
         eyebrow="Trust"
@@ -168,3 +172,4 @@ export default function Home() {
     </main>
   );
 }
+
