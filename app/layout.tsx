@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { BASE_PATH } from "@/lib/site-path";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -14,7 +13,6 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(`https://leogaudez-bot.github.io${BASE_PATH}/`),
   title: "Mini Sound System — concept audio domestique",
   description:
     "Landing conceptuelle pour un mini sound system d’appartement/maison, avec business plan et plans vectoriels de principe.",
